@@ -1,0 +1,12 @@
+<!doctype html><html><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>AI Compression</title><link rel="icon" href="data:,"/><link rel="stylesheet" href="style.css"/></head>
+<body><main>
+<h1>AI Image & Video Compression</h1>
+<p>Upload → AI picks params → auto quality check → score 1–10. Target SSIM ≥0.95.</p>
+<form id="f"><input type="file" id="file" accept="image/*,video/*" required/>
+<select id="mode"><option value="ai">AI-adaptive</option><option value="fixed">Fixed baseline</option></select>
+<button>Compress</button></form>
+<pre id="out">Ready.</pre>
+<div id="cmp" class="row"></div>
+<script src="app.js"></script></main></body></html>

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+runs/*
+!runs/.gitkeep
+db/*.db
+out/
+uploads/
+__review__/

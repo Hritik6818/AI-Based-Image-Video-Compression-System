@@ -1,0 +1,6 @@
+body{font-family:system-ui;margin:0;background:#0f1115;color:#eee}
+main{max-width:820px;margin:2rem auto;padding:0 1rem}
+form{display:flex;gap:.5rem;flex-wrap:wrap;margin:1rem 0}
+pre{background:#1a1e26;padding:1rem;border-radius:8px;overflow:auto}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+img,video{max-width:100%;border-radius:8px}
